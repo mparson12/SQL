@@ -1,0 +1,21 @@
+--Create a store database
+
+CREATE TABLE Albums (Number INTEGER PRIMARY KEY, Name TEXT,bYear INTEGER, Price INTEGER);
+
+INSERT INTO Albums VALUES (1, "2 Cool 4 Skool", 2013, 15.99);
+INSERT INTO Albums VALUES (2, "O!RUL82?", 2013, 15.99);
+INSERT INTO Albums VALUES (3, "Skool Luv  Affair", 2014, 18.99);
+INSERT INTO Albums VALUES (4, "Dark & Wild", 2014, 19.99);
+INSERT INTO Albums VALUES (5, "The Most Beautiful Moment In Life", 2016, 20.99);
+INSERT INTO Albums VALUES (6, "Wings", 2016, 16.99);
+INSERT INTO Albums VALUES (7, "Love Yourself: Her", 2017, 21.99);
+INSERT INTO Albums VALUES (8, "Love Yourself: Tear", 2018, 21.99);
+INSERT INTO Albums VALUES (9, "Love Yourself: Answer", 2018, 23.99);
+INSERT INTO Albums VALUES (10, "MAP OF THE SOUL: PERSONA", 2019, 22.99);
+INSERT INTO Albums VALUES (11, "MAP OF THE SOUL:7", 2020, 26.99);
+INSERT INTO Albums VALUES (12,"BE", 2020, 24.99);
+INSERT INTO Albums VALUES (13, "Proof", 2022, 32.99);
+
+--Display order by price
+SELECT * FROM Albums ORDER BY price
+
